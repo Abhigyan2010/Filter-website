@@ -1,0 +1,18 @@
+h3{
+    font-size: 25px;
+}
+.btn-success:hover{
+    background-color: blue;
+}
+.btn-warning:hover{
+    background-color:lime;
+}
+canvas{
+    animation-name: something;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes something{
+    from{box-shadow: 1px 1px 100px blue;}
+    to{box-shadow: 1px 1px 100px lime;}
+}
